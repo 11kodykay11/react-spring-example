@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	/* position: fixed; */
+}
+
+#root {
+	height: 100%;
+	overflow: hidden;
+	/*Gradient*/
+	/* background: #9796f0; */
+	/* background: -moz-linear-gradient(to right, #9796f0, #fbc7d4); */
+	/* background: -webkit-linear-gradient(to right, #9796f0, #fbc7d4); */
+	/* background: linear-gradient(to right, #9796f0, #fbc7d4); */
+
+	background: linear-gradient(90deg, #000428 0%, #004e92 100%);
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0 grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: darkgray;
+}

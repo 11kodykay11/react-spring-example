@@ -1,0 +1,12 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Unfortunately, The VSCode plugin lacks charset support, but it should come soon!
+[*.{js,jsx,css,pcss}]
+charset = utf-8
+indent_style = tab
+indent_size = 4

@@ -1,0 +1,20 @@
+{
+	"extends": ["react-app"],
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": "error",
+		"no-var": "warn",
+		"arrow-spacing": "warn",
+		"space-before-blocks": "warn",
+		"space-infix-ops": "warn",
+		"spaced-comment": ["warn", "always"],
+		"keyword-spacing": [
+			"warn",
+			{
+				"before": true,
+				"after": true
+			}
+		],
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
+	}
+}
