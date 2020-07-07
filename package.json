@@ -54,7 +54,7 @@
 		]
 	},
 	"devDependencies": {
-		"electron": "8.2.1",
+		"electron": "8.2.4",
 		"craco": "0.0.3",
 		"prettier": "2.0.4",
 		"eslint-plugin-react": "7.19.0",
